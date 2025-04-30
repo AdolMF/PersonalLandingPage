@@ -78,7 +78,7 @@ nav ul li:hover {
 .seccTarjetaCont {
     color: var(--primary-color);
     text-decoration: none;
-    background-image: url(../img/marmol-bg.jpg);
+    background-image: url(/docs/img/marmol-bg.jpg);
     background-repeat: none;
     background-size: cover;
     align-content: center;  
