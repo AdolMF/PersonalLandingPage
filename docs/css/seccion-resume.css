@@ -3,7 +3,11 @@
 
 /* Seccion Resume */
 .secc-resume {
+    background-image: url(../img/marmol-bg.JPG);
     border-bottom: .1rem solid;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     justify-items: left;
     padding: 3rem;
     padding-top: 5rem;
@@ -17,7 +21,7 @@
 }
 
 .secc-resume > .resume-main-container > div {
-    background-color: var(--secondary-color);
+    background-color: var(--card-bg-color);
     margin-bottom: 1rem;
     
     padding: 3rem;

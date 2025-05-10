@@ -6,13 +6,13 @@
 .secc-tarjeta-cont {
     color: var(--primary-color);
     text-decoration: none;
-    background-image: url(../img/marmol-bg2.JPG);
+    background-image: url(../img/marmol-bg.JPG);
     background-repeat: none;
     background-size: cover;
     align-content: center;
     border-bottom: var(--secondary-color) solid;
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
     
 }
 
@@ -53,6 +53,13 @@
     padding-bottom: 1rem;
     border-bottom: .1rem solid;
     border-color: var(--primary-color);
+}
+
+.secc-tarjeta-cont ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    row-gap: 1rem;
 }
 
 .secc-tarjeta-cont a,

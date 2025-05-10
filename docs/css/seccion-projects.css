@@ -3,7 +3,7 @@
 
 /* Seccion Projects */
 .secc-projects {
-    background-image: url(../img/marmol-bg2.JPG);
+    background-image: url(../img/marmol-bg.JPG);
     background-repeat: none;
     background-size: cover;
     padding-top: 4rem;
@@ -21,14 +21,38 @@
     justify-self: center;
     padding-bottom: .4rem;
     color: var(--secondary-color);
-    
+    transition: all .5s;   
 }
+
+.proj-title a,
+.proj-title a:link,
+.proj-title a:visited {
+    text-decoration: none;
+    color: var(--secondary-color);
+    transition: all .5s;
+}
+
+.proj-title:hover {
+    background-color: var(--card-bg-color);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+    transition: all .5s;
+}
+
+.proj-title:hover h1 {
+    color: var(--primary-color);
+}
+
 
 .secc-projects .proj-boxes {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    transition: all .5s;
 }
+
+
 
 .secc-projects .proj-boxes div {
     margin: 1rem;
