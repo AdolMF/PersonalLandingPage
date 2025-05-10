@@ -74,12 +74,12 @@
 @media (max-width: 768px) {
     
     .secc-tarjeta-cont > div {
-        width: 60%;
+        width: 74%;
         transition: 1s;
     }
 
     .secc-tarjeta-cont > div:hover {
-        width: 61%;
+        width: 75%;
     }
 }
 
