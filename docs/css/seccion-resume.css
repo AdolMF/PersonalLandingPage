@@ -1,0 +1,49 @@
+
+@import url(style.css);
+
+/* Seccion Resume */
+.secc-resume {
+    border-bottom: .1rem solid;
+    justify-items: left;
+    padding: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    color: var(--primary-color);
+}
+
+.secc-resume > .resume-main-container {
+    margin: 0 auto;
+}
+
+.secc-resume > .resume-main-container > div {
+    background-color: var(--secondary-color);
+    margin-bottom: 1rem;
+    
+    padding: 3rem;
+    padding-bottom: 1.5rem;
+    border-radius: .5rem;
+    text-align: justify;
+}
+
+.secc-resume > .resume-main-container > div > h2 {
+    border-bottom: .1rem solid;
+    border-color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.secc-resume > .resume-main-container > div > h3 {
+    margin-bottom: .5rem;
+}
+
+.secc-resume ul{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    margin-bottom: 2rem;
+    
+}
+.secc-resume ul > li{
+    margin-left: 2rem;
+    list-style: square;
+}

@@ -1,0 +1,91 @@
+
+@import url(style.css);
+
+
+/* seccion tarjeta contacto*/
+.secc-tarjeta-cont {
+    color: var(--primary-color);
+    text-decoration: none;
+    background-image: url(/Actividad_4/PersonalLandingPage/docs/img/marmol-bg2.JPG);
+    background-repeat: none;
+    background-size: cover;
+    align-content: center;
+    border-bottom: var(--secondary-color) solid;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    
+}
+
+.secc-tarjeta-cont > div {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--card-bg-color);
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    column-gap: 5rem;
+    row-gap: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    transition: all .4s;
+}
+
+.secc-tarjeta-cont > div:hover {
+    width: 51%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: .4s;
+}
+
+.secc-tarjeta-cont #tarjeta-img img {
+    border: .2rem solid var(--primary-color);
+    border-radius: .6rem;
+    width: 15rem;
+}
+
+.secc-tarjeta-cont h1 {
+    font-size: x-large    
+}
+
+.secc-tarjeta-cont h2 {
+    font-size: large;
+    padding-bottom: 1rem;
+    border-bottom: .1rem solid;
+    border-color: var(--primary-color);
+}
+
+.secc-tarjeta-cont a,
+.secc-tarjeta-cont a:visited, 
+.secc-tarjeta-cont a:link {
+    color: var(--detail1-color);
+    text-decoration: none;
+    font-size: medium;
+}
+
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 1024px) {
+}
+ 
+@media (max-width: 768px) {
+    
+    .secc-tarjeta-cont > div {
+        width: 60%;
+        transition: 1s;
+    }
+
+    .secc-tarjeta-cont > div:hover {
+        width: 61%;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .secc-tarjeta-cont #tarjeta-img img {
+        width: 12rem;
+    }
+}

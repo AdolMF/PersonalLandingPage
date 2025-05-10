@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/docs/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/seccion-tarjeta.css">
+    <link rel="stylesheet" href="css/seccion-projects.css">
+    <link rel="stylesheet" href="css/seccion-about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="/docs/img/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
     <title>Adolfo Martinez - Welcome</title>
 </head>
 <body>
@@ -28,7 +31,7 @@
                     <a href="#projects" class="fa fa-book"> Projects</a>
                 </li>
                 <li>
-                    <a href="#resume" class="fa fa-user"> Resume (CV)</a>
+                    <a href="html/resume.html" class="fa fa-user"> Resume (CV)</a>
                 </li>
                 <li>
                     <a href="#" class="fa fa-phone"> Contact</a>
@@ -38,75 +41,51 @@
     </header>
     <main>
         <!-- Seccion 1 : Tarjeta de contacto -->
-        <section class="seccTarjetaCont">
+        <section class="secc-tarjeta-cont">
             <div>
-                <img src="/docs/img/profile-resume2.jpg" alt="cv_photo">
-                <table>
-                    <thead>
-                        <td colspan="2">
-                            <h1>Adolfo Martinez Fernandez</h1>
-                            <h2>Developer and data specialist</h2>
-                        </td>
-                    </thead>
-                <tbody>
-                    
-                
-                    <tr>
-                        <td>
-                            <p>Location</p>
-                        </td>
-                        <td>
-                            <p>
+                <div id="tarjeta-img">
+                    <img src="img/profile-resume2.jpg" alt="cv_photo">
+                </div>
+                <div id="tarjeta-details">
+                    <div>
+                        <h1>Adolfo Martinez Fernandez</h1>
+                        <h2>Developer and data specialist</h2>                  
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <h3>Location</h3>
                                 <a href=
-                                "https://www.google.com/maps/place/Eindhoven/"
-                                target="_blank"> Eindhoven, Netherlands</a>
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Phone</p>
-                        </td>
-                        <td>
-                            <p>
+                                    "https://www.google.com/maps/place/Eindhoven/"
+                                    target="_blank"> Eindhoven, Netherlands</a>
+                            </li>
+                            <li>
+                                <h3>Phone</h3>
                                 <a href="tel:+31613811797" 
-                                target="_blank"> +31 6 13 81 17 97</a>
-                            </p>                     
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Email</p> 
-                        </td>
-                        <td>
-                            <p>
+                                    target="_blank"> +31 6 13 81 17 97</a>
+                            </li>
+                            <li>
+                                <h3>Email</h3>
                                 <a href="mailto:adolfomf97@gmail.com"
-                                target="_blank">
-                                adolfomf97@gmail.com</a>
-                            </p> 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Linkedin</p>
-                        </td>
-                        <td>
-                            <p>
+                                    target="_blank">
+                                    adolfomf97@gmail.com</a>
+                            </li>
+                            <li>
+                                <h3>Linkedin</h3>
                                 <a href=
-                                "https://www.linkedin.com/in/adolfomartinezfernandez/"
-                                target="_blank">
-                                https://www.linkedin.com/in/
-                                adolfomartinezfernandez/</a>
-                            </p>
-                        </td>
-                    </tr>
-                </tbody>
-                </table>
+                                    "https://www.linkedin.com/in/adolfomartinezfernandez/"
+                                    target="_blank">
+                                    linkedin.com/in/
+                                    adolfomartinezfernandez/</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- Seccion 2 : About me -->
-        <section id="about" class="seccAboutMe">
+        <section id="about" class="secc-about-me">
             <div>
                 <h1>Want to know more?</h1>
                 <h2> About me </h2>
@@ -121,33 +100,37 @@
         </section>
 
         <!-- Seccion 3 : Proyectos -->
-        <section id="projects">
-            <div>
-                <h1>Projects</h1>
+        <section id="projects" class="secc-projects">
+            <div class="proj-title">
+                <h1>my projects</h1>  
             </div>
-            <div>
-                <p>Breaking Bad Landing Page</p>
-            </div>
-            <div>
-                <p>UML eSports Tournament concept</p>
-            </div>
-            <div>
-                <p>GitHub basics</p>
-            </div>
-        </section>
-
-        <!-- Seccion 4 : Curriculum -->
-        <section id="resume">
-            <div>
-                <h1>Resume</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus doloremque debitis nihil nesciunt nulla! Neque ut corporis dolor reprehenderit eligendi culpa consequuntur. Reiciendis consequatur cumque suscipit aut quasi, tempore aliquam.
-                    Blanditiis sapiente excepturi harum omnis quis perspiciatis architecto, maiores modi ad necessitatibus quia nostrum ex laborum repellendus, amet saepe. Vero nihil dicta velit deleniti ad voluptas tempore suscipit architecto cupiditate.
-                    Nesciunt repudiandae nostrum doloribus distinctio placeat ut. Adipisci, natus quasi! Consequuntur impedit aspernatur placeat maxime quos quisquam libero rem necessitatibus! Nemo alias ipsum officiis asperiores atque eligendi pariatur accusamus quos.
-                    Recusandae inventore nostrum beatae omnis sunt voluptates! Aperiam aliquam mollitia et tempora iste, fugit nam maxime sed eius eum ipsum odit nisi atque modi, ducimus, deleniti tenetur porro minus enim.
-                </p>
+            <div class="proj-boxes">
+                <a href="https://github.com/AdolMF/torneo-esports-uml"
+                target="_blank">
+                    <div class="proj-esports">
+                        <p>UML eSports Tournament concept</p>
+                    </div>
+                </a>
+                <a href="https://github.com/AdolMF/Breaking_Bad"
+                target="_blank">
+                    <div class="proj-breakingbad">
+                        <p>Breaking Bad Landing Page</p>
+                    </div>
+                </a>
+                <a href="https://github.com/AdolMF/mi-segundo-repo"
+                target="_blank">
+                    <div class="proj-localboostly">
+                        <p>LocalBoostly software development</p>
+                    </div>
+                </a>
             </div>
         </section>
     </main>
+    <footer>
+        <ul>
+            <li>Adolfo Martinez Fernandez</li>
+            <li>Developer and data specialist</li>
+        </ul>  
+    </footer>
 </body>
 </html>

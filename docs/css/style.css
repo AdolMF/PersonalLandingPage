@@ -21,9 +21,14 @@ body {
 }
 
 header {
+    background-color: var(--secondary-color);
     position: fixed;
+    top: 0;
     width: 100%;
-    color: var(--primary-color);   
+    height: 3.5rem;
+    color: var(--primary-color); 
+    align-content: center;  
+    border-bottom: .1rem solid var(--primary-color);
 }
 
 header h1 {
@@ -32,11 +37,11 @@ header h1 {
 }
 
 nav {
-    background-color: var(--secondary-color);
     display: flex;
     align-items: center;
+    justify-self: center;
     justify-content: space-around;
-    padding: 1rem;
+    width: 80%;
 }
 
 nav ul {
@@ -74,160 +79,47 @@ nav ul li:hover {
     display: none;
 }
 
-/* seccion tarjeta contacto*/
-.seccTarjetaCont {
-    color: var(--primary-color);
-    text-decoration: none;
-    background-image: url(/docs/img/marmol-bg.jpg);
-    background-repeat: none;
-    background-size: cover;
-    align-content: center;  
-    padding: 19rem;
-    padding-top: 10rem;
-    padding-bottom: 6rem;
-    border-bottom: var(--secondary-color) solid;
-    
-}
-
-.seccTarjetaCont div:hover {
-    margin: 0.5rem;
-    transition: 0.75s;
-}
-
-.seccTarjetaCont div {
-    
-    padding: 1rem;
-    display: flex;
-    background-color: var(--card-bg-color);
-    align-items: flex;
-    border-radius: 1rem;
-    transition: margin 0.75s;
-}
-
-.seccTarjetaCont div img {
-    margin: 1rem;
-    border-radius: 0.5rem;
-    border: .2rem solid;
-    align-self: center;
-    width: 30%;
-    height: 30%;
-}
-
-.seccTarjetaCont div table {
-    font-size: 100%;
-    text-align: left;
-}
-
-.seccTarjetaCont div table thead{
-    font-size: 160%;
-}
-.seccTarjetaCont h1 {
-    font-size: 200%;
-    
-}
-
-.seccTarjetaCont h2 {
-    font-size: 110%;
-    padding-bottom: 1rem;
-    border-bottom: .1rem solid;
-    border-color: var(--primary-color);
-}
-.seccTarjetaCont div table tr td {
-    padding: 1rem;
-}
-
-
-
-
-
-.seccTarjetaCont a:visited, .seccTarjetaCont a:link {
-    color: var(--detail1-color);
-    text-decoration: none;
-}
-
-/* seccion Aboutme*/
-.seccAboutMe {
+footer {
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    
+    height: 3rem;
+    border-top: .1rem solid var(--primary-color);
+    align-content: center;
 }
 
-.seccAboutMe div{
-    margin: auto;
-    padding-top: 10rem;
-    padding: 2%;
-    width: 50%;
-    border: .1rem solid;
-    border-radius: .5rem;
-    transition: all 1.3s;
-    text-align: justify;
-}
-.seccAboutMe h1{
-    text-align: right;
-}
-
-.seccAboutMe div:hover{
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    transition: 0.7s;
-}
-
-.seccAboutMe div:hover h1{
-    
-    color: var(--primary-color);
-    transition: .7s
-}
-
-.seccAboutMe p, .seccAboutMe h2  {
-    color: var(--secondary-color);
+footer > ul {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: space-between;
+    width: 70%;
 }
 
 
-/*Ajustes responsive design*/
-@media(max-width:1280px) {
-    
-    .seccTarjetaCont {
-        padding: 6rem;
-        padding-top: 10rem;
-        padding-bottom: 6rem;
-      }
+@media (max-width: 1300px) {
 
-    .seccTarjetaCont div {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      .seccTarjetaCont div img {
-        margin: 1rem;
-        border-radius: 0.5rem;
-        border: .2rem solid;
-        align-self: center;
-        width: 100%;
-        height: auto
-      }
-
-    .seccTarjetaCont div table {
-        text-align: left;
-        border-spacing: 2rem;
-    }
 }
 
+@media (max-width: 1024px) {
+}
+ 
+@media (max-width: 768px) {
+}
 
-@media(max-width:992px) {
-    nav {
-        justify-content: flex-start;
-    }
-    .drawer {
+@media (max-width: 480px) {
+}
+
+    header .drawer {
         display: block;
         margin-left: auto;
     }
-    nav h1 {
+    header nav h1 {
         margin-left: 1rem;
     }
-    ul {
+    header ul {
         position: fixed;
         width: 100%;
         height: auto;
@@ -240,7 +132,7 @@ nav ul li:hover {
         flex-direction: column;
         align-content: center;
     }
-    nav ul li {
+    header nav ul li {
         display: flex;
         flex-direction: column;
         padding-left: .8rem;
@@ -248,4 +140,4 @@ nav ul li:hover {
     #ckbox:checked~.menu-box {
         left: 0;
     }
-}
+
