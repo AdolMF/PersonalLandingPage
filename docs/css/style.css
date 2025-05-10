@@ -79,83 +79,7 @@ nav ul li:hover {
     display: none;
 }
 
-<<<<<<< HEAD
 footer {
-=======
-/* seccion tarjeta contacto*/
-.seccTarjetaCont {
-    color: var(--primary-color);
-    text-decoration: none;
-    background-image: url(img/marmol-bg.jpg);
-    background-repeat: none;
-    background-size: cover;
-    align-content: center;  
-    padding: 19rem;
-    padding-top: 10rem;
-    padding-bottom: 6rem;
-    border-bottom: var(--secondary-color) solid;
-    
-}
-
-.seccTarjetaCont div:hover {
-    margin: 0.5rem;
-    transition: 0.75s;
-}
-
-.seccTarjetaCont div {
-    
-    padding: 1rem;
-    display: flex;
-    background-color: var(--card-bg-color);
-    align-items: flex;
-    border-radius: 1rem;
-    transition: margin 0.75s;
-}
-
-.seccTarjetaCont div img {
-    margin: 1rem;
-    border-radius: 0.5rem;
-    border: .2rem solid;
-    align-self: center;
-    width: 30%;
-    height: 30%;
-}
-
-.seccTarjetaCont div table {
-    font-size: 100%;
-    text-align: left;
-}
-
-.seccTarjetaCont div table thead{
-    font-size: 160%;
-}
-.seccTarjetaCont h1 {
-    font-size: 200%;
-    
-}
-
-.seccTarjetaCont h2 {
-    font-size: 110%;
-    padding-bottom: 1rem;
-    border-bottom: .1rem solid;
-    border-color: var(--primary-color);
-}
-.seccTarjetaCont div table tr td {
-    padding: 1rem;
-}
-
-
-
-
-
-.seccTarjetaCont a:visited, .seccTarjetaCont a:link {
-    color: var(--detail1-color);
-    text-decoration: none;
-}
-
-/* seccion Aboutme*/
-.seccAboutMe {
->>>>>>> 5f8600c34ae82365a069d396f0ebdb4bbade2f4c
     background-color: var(--secondary-color);
     color: var(--primary-color);
     position: fixed;
@@ -174,21 +98,17 @@ footer > ul {
     width: 70%;
 }
 
+footer li {
+    text-align: center;
+}
+
 
 @media (max-width: 1300px) {
 
 }
 
 @media (max-width: 1024px) {
-}
- 
-@media (max-width: 768px) {
-}
-
-@media (max-width: 480px) {
-}
-
-    header .drawer {
+        header .drawer {
         display: block;
         margin-left: auto;
     }
@@ -216,8 +136,10 @@ footer > ul {
     #ckbox:checked~.menu-box {
         left: 0;
     }
-<<<<<<< HEAD
-
-=======
 }
->>>>>>> 5f8600c34ae82365a069d396f0ebdb4bbade2f4c
+ 
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+}
