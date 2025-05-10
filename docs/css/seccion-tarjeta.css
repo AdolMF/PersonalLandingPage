@@ -6,7 +6,7 @@
 .secc-tarjeta-cont {
     color: var(--primary-color);
     text-decoration: none;
-    background-image: url(../img/marmol-bg.JPG);
+    background-image: url(../img/marmol-bg.jpg);
     background-repeat: none;
     background-size: cover;
     align-content: center;
@@ -23,7 +23,7 @@
     background-color: var(--card-bg-color);
     align-items: center;
     justify-content: center;
-    border-radius: 1rem;
+    border-radius: .6rem;
     column-gap: 5rem;
     row-gap: 1rem;
     width: 50%;
