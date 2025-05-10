@@ -124,12 +124,14 @@ footer li {
         height: auto;
         background-color: var(--secondary-color);
         top: 3.5rem;
-        left: -100%;
+        left: 200%;
         text-align: left;
         transition: all .75s;
         display: flex;
         flex-direction: column;
         align-content: center;
+        border-bottom-left-radius: .7rem;
+        border-bottom-right-radius: .7rem;
     }
     header nav ul li {
         display: flex;

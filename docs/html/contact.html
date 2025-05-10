@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/seccion-contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+    <title>Adolfo Martinez | Resume</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Adolfo Martinez Fernandez</h1>
+            <input type="checkbox" id="ckbox">
+            <label for="ckbox" class="drawer">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </label>
+            <ul class="menu-box">
+                <li>
+                <a href="../index.html" class="fa fa-info"> About me</a>
+                </li>
+                <li>
+                    <a href="projects.html" class="fa fa-book"> Projects</a>
+                </li>
+                <li>
+                    <a href="resume.html" class="fa fa-user"> Resume (CV)</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="fa fa-phone"> Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Seccion 1 : Tarjeta de contacto -->
+        <section class="secc-contact">
+            <div id="contact-container">
+                <div id="contact-info">
+                    <p>
+                        Do not hesitate to contact me! I would be happy to offer 
+                        my services as a developer and data expert.
+                    </p>
+                </div>
+                <form action="mailto:fakemail@gmail.com">
+                    <fieldset>
+                        <ul>
+                            <li id="contact-name">
+                                <input type="text" placeholder="Name (John)" required>
+                                <input type="text" placeholder="Surname (Smith)" required>
+                            </li>
+                            <li>
+                                <input type="text" placeholder="Phone (+31 6 78 12 34 56)" required>
+                            </li>
+                            <li>
+                                <input type="email" placeholder="Mail (example@mail.com)" required>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <textarea placeholder="Tell me your idea or how I could help you, I will be happy to answer as soon as possible." maxlength="2000" required></textarea>
+                    </fieldset>
+                    <div id="contact-buttons">
+                        <input type="reset" value="Reestablecer">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>Adolfo Martinez Fernandez</li>
+            <li>Developer and data specialist</li>
+        </ul>  
+    </footer>
+</body>
+</html>

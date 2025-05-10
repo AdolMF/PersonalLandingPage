@@ -1,0 +1,122 @@
+
+@import url(../css/style.css);
+
+.secc-contact {
+    background-image: url(../img/marmol-bg.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 4.5rem;
+}
+
+.secc-contact #contact-container {
+    background-color:var(--card-bg-color);
+    color: var(--primary-color);
+    width: 50%;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+#contact-info {
+    border-bottom: .1rem solid var(--primary-color);
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+#contact-container form fieldset {
+    width: 100%;
+    border: none;
+}
+
+#contact-container  #contact-name  {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+}
+
+#contact-container #contact-name input {
+    flex: 1;
+}
+
+#contact-container #contact-name~li input {
+    width: 100%;
+}
+
+#contact-container li {
+    margin-bottom: 1rem;
+}
+
+#contact-container input, #contact-container textarea {
+    border: .1rem solid var(--primary-color);
+    padding: 1rem;
+    border-radius: .4rem;
+    background-color: transparent;
+    font-family:  'Playfair Display', 'Times New Roman',sans-serif;
+    color: var(--primary-color);
+}
+
+#contact-container input::placeholder,
+#contact-container textarea::placeholder {
+    font-family:  'Playfair Display', 'Times New Roman',sans-serif;
+    color: var(--detail2-color);
+}
+
+#contact-container textarea {
+    resize: none;
+    width: 100%;
+    min-height: 8rem;
+    margin-bottom: 1rem;
+}
+
+#contact-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#contact-buttons input {
+    cursor: pointer;
+    width: 8rem ;
+}
+
+#contact-buttons input:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+@media (max-width: 1300px) {
+    .secc-contact #contact-container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .secc-contact #contact-container {
+        width: 70%;
+    }
+
+    #contact-container  #contact-name  {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+}
+ 
+@media (max-width: 768px) {
+    .secc-contact #contact-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .secc-contact #contact-container {
+        width: 85%;
+    }
+}
