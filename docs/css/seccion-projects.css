@@ -10,6 +10,10 @@
     padding-bottom: 4rem;
 }
 
+.secc-projects > div {
+    margin: 0 auto;
+}
+
 .secc-projects .proj-title{
     width: 50%;
     border-bottom: .1rem solid;

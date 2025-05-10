@@ -6,7 +6,7 @@
 .secc-tarjeta-cont {
     color: var(--primary-color);
     text-decoration: none;
-    background-image: url(/Actividad_4/PersonalLandingPage/docs/img/marmol-bg2.JPG);
+    background-image: url(../img/marmol-bg2.JPG);
     background-repeat: none;
     background-size: cover;
     align-content: center;
