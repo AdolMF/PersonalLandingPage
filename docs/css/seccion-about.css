@@ -41,3 +41,20 @@
 .secc-about-me p, .secc-about-me h2  {
     color: var(--secondary-color);
 }
+
+/* 
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 1024px) {
+}
+ 
+@media (max-width: 768px) {
+} 
+*/
+
+@media (max-width: 480px) {
+    .secc-about-me div{
+        width: 70%;
+    }
+}

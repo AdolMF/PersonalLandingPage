@@ -37,8 +37,13 @@
     transition: all .4s;
 }
 
+.pjtd-card-img {
+    display: flex;
+    justify-content: center;
+}
 
 .pjtd-card-img > img {
+    
     width: 15rem;
     border-radius: .4rem;
 }
@@ -110,16 +115,22 @@
 }
  
 @media (max-width: 768px) {
+
+    .secc-pjdt-container {
+        padding-inline: 0rem;
+    }
+    .pjtd-card {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
     .pjtd-card-buttons {
         margin-top: 1.5rem;
     }
 }
 
 @media (max-width: 480px) {
-    .pjtd-card {
-        display: flex;
-        flex-direction: column;
-    }
 
     .pjtd-card-buttons ul {
         flex-direction: column;
