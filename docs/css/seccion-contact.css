@@ -83,11 +83,14 @@
 #contact-buttons input {
     cursor: pointer;
     width: 8rem ;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
 }
 
 #contact-buttons input:hover {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: var(--card-bg-color);
+    color: var(--primary-color);
 }
 
 @media (max-width: 1300px) {
